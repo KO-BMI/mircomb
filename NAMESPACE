@@ -29,7 +29,7 @@ importFrom(xtable,xtable)
 importMethodsFrom(AnnotationDbi, as.list)
 #importMethodsFrom(GOstats, summary)
 importFrom(VennDiagram,venn.diagram)
-importFrom(DESeq,newCountDataSet,estimateSizeFactors,estimateDispersions,nbinomTest)
+importFrom(newCountDataSet,estimateSizeFactors,estimateDispersions,nbinomTest)
   importFrom("grDevices", "colorRamp", "dev.off", "palette", "pdf",
              "rgb", "topo.colors", "x11")
   importFrom("graphics", "abline", "axis", "barplot", "boxplot",
